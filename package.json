@@ -1,0 +1,33 @@
+{
+  "name": "revest",
+  "version": "1.0.0",
+  "description": "Sales Order Management Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeincoding/revest.git"
+  },
+  "author": "Julakanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifeincoding/revest/issues"
+  },
+  "homepage": "https://github.com/lifeincoding/revest#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.3"
+  }
+}
