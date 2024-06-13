@@ -21,6 +21,11 @@ Framework Used : Express
 Database : Mysql 
  API Documentation Link : https://documenter.getpostman.com/view/28044575/2sA3XPCNFz 
 
+
+Run Command : npm run dev (nodemon index.js);
+APi URL PATH : localhost:3008//revestsolutions-backend/api/v1/
+
+
 Database Schema :
 
  Database: `revest_salesorders`
